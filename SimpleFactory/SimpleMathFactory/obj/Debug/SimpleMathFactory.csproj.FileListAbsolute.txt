@@ -1,0 +1,4 @@
+E:\Study\csharp\CSharpLearn\Design pattern\SimpleFactory\SimpleMathFactory\bin\Debug\SimpleMathFactory.dll
+E:\Study\csharp\CSharpLearn\Design pattern\SimpleFactory\SimpleMathFactory\bin\Debug\SimpleMathFactory.pdb
+E:\Study\csharp\CSharpLearn\Design pattern\SimpleFactory\SimpleMathFactory\obj\Debug\SimpleMathFactory.dll
+E:\Study\csharp\CSharpLearn\Design pattern\SimpleFactory\SimpleMathFactory\obj\Debug\SimpleMathFactory.pdb

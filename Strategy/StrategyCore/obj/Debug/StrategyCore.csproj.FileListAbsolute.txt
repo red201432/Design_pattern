@@ -1,0 +1,4 @@
+E:\Study\csharp\CSharpLearn\Design pattern\Strategy\StrategyCore\bin\Debug\StrategyCore.dll
+E:\Study\csharp\CSharpLearn\Design pattern\Strategy\StrategyCore\bin\Debug\StrategyCore.pdb
+E:\Study\csharp\CSharpLearn\Design pattern\Strategy\StrategyCore\obj\Debug\StrategyCore.dll
+E:\Study\csharp\CSharpLearn\Design pattern\Strategy\StrategyCore\obj\Debug\StrategyCore.pdb

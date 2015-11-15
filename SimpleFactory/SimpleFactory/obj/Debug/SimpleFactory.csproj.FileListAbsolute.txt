@@ -1,0 +1,5 @@
+E:\Study\csharp\CSharpLearn\Design pattern\SimpleFactory\SimpleFactory\bin\Debug\SimpleFactory.exe
+E:\Study\csharp\CSharpLearn\Design pattern\SimpleFactory\SimpleFactory\bin\Debug\SimpleFactory.pdb
+E:\Study\csharp\CSharpLearn\Design pattern\SimpleFactory\SimpleFactory\obj\Debug\SimpleFactory.csprojResolveAssemblyReference.cache
+E:\Study\csharp\CSharpLearn\Design pattern\SimpleFactory\SimpleFactory\obj\Debug\SimpleFactory.exe
+E:\Study\csharp\CSharpLearn\Design pattern\SimpleFactory\SimpleFactory\obj\Debug\SimpleFactory.pdb

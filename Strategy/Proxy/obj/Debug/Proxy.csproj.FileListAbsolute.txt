@@ -1,0 +1,5 @@
+E:\Study\csharp\CSharpLearn\Design pattern\Strategy\Proxy\obj\Debug\Proxy.csprojResolveAssemblyReference.cache
+E:\Study\csharp\CSharpLearn\Design pattern\Strategy\Proxy\bin\Debug\Proxy.dll
+E:\Study\csharp\CSharpLearn\Design pattern\Strategy\Proxy\bin\Debug\Proxy.pdb
+E:\Study\csharp\CSharpLearn\Design pattern\Strategy\Proxy\obj\Debug\Proxy.dll
+E:\Study\csharp\CSharpLearn\Design pattern\Strategy\Proxy\obj\Debug\Proxy.pdb

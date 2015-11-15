@@ -1,0 +1,12 @@
+E:\Study\csharp\CSharpLearn\Design pattern\SimpleFactory\SimpleFactoryTest\bin\Debug\SimpleFactoryTest.dll
+E:\Study\csharp\CSharpLearn\Design pattern\SimpleFactory\SimpleFactoryTest\bin\Debug\SimpleFactoryTest.pdb
+E:\Study\csharp\CSharpLearn\Design pattern\SimpleFactory\SimpleFactoryTest\bin\Debug\Moq.dll
+E:\Study\csharp\CSharpLearn\Design pattern\SimpleFactory\SimpleFactoryTest\bin\Debug\nunit.framework.dll
+E:\Study\csharp\CSharpLearn\Design pattern\SimpleFactory\SimpleFactoryTest\bin\Debug\SimpleMathFactory.dll
+E:\Study\csharp\CSharpLearn\Design pattern\SimpleFactory\SimpleFactoryTest\bin\Debug\Moq.pdb
+E:\Study\csharp\CSharpLearn\Design pattern\SimpleFactory\SimpleFactoryTest\bin\Debug\Moq.xml
+E:\Study\csharp\CSharpLearn\Design pattern\SimpleFactory\SimpleFactoryTest\bin\Debug\nunit.framework.xml
+E:\Study\csharp\CSharpLearn\Design pattern\SimpleFactory\SimpleFactoryTest\bin\Debug\SimpleMathFactory.pdb
+E:\Study\csharp\CSharpLearn\Design pattern\SimpleFactory\SimpleFactoryTest\obj\Debug\SimpleFactoryTest.csprojResolveAssemblyReference.cache
+E:\Study\csharp\CSharpLearn\Design pattern\SimpleFactory\SimpleFactoryTest\obj\Debug\SimpleFactoryTest.dll
+E:\Study\csharp\CSharpLearn\Design pattern\SimpleFactory\SimpleFactoryTest\obj\Debug\SimpleFactoryTest.pdb
