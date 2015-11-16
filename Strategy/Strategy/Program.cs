@@ -8,6 +8,8 @@ using Decorator;
 using Proxy;
 using Prototype;
 using TemplateMethod;
+using Facade;
+using Builder;
 namespace Strategy
 {
     class Program
@@ -67,6 +69,28 @@ namespace Strategy
             TestPaperB testB = new TestPaperB();
             testB.Test1();
             testB.Test2();
+            #endregion
+
+#region Facade 外观模式
+            Fund jijin = new Fund();
+            jijin.BuyFund();
+            jijin.sellFund();
+#endregion
+
+            #region 建造者模式
+            Director director = new Director();
+            abstractBuilder builder1 = new Builder1();
+            abstractBuilder builder2 = new BuilderB();
+            director.Construct(builder1);
+            Builder.Builder b1 = builder1.getBuilder();
+            b1.show();
+
+            director.Construct(builder2);
+            Builder.Builder b2 = builder2.getBuilder();
+            b2.show();
+            #endregion
+            #region 观察者模式
+
             #endregion
         }
     }

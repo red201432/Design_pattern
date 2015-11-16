@@ -30,3 +30,7 @@ E:\github\Design_pattern\Strategy\Strategy\bin\Debug\Proxy.pdb
 E:\github\Design_pattern\Strategy\Strategy\bin\Debug\StrategyCore.pdb
 E:\github\Design_pattern\Strategy\Strategy\bin\Debug\TemplateMethod.pdb
 E:\github\Design_pattern\Strategy\Strategy\obj\Debug\Strategy.csprojResolveAssemblyReference.cache
+E:\github\Design_pattern\Strategy\Strategy\bin\Debug\Facade.dll
+E:\github\Design_pattern\Strategy\Strategy\bin\Debug\Facade.pdb
+E:\github\Design_pattern\Strategy\Strategy\bin\Debug\Builder.dll
+E:\github\Design_pattern\Strategy\Strategy\bin\Debug\Builder.pdb

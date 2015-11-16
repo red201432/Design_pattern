@@ -1,0 +1,5 @@
+E:\github\Design_pattern\Strategy\Builder\bin\Debug\Builder.dll
+E:\github\Design_pattern\Strategy\Builder\bin\Debug\Builder.pdb
+E:\github\Design_pattern\Strategy\Builder\obj\Debug\Builder.csprojResolveAssemblyReference.cache
+E:\github\Design_pattern\Strategy\Builder\obj\Debug\Builder.dll
+E:\github\Design_pattern\Strategy\Builder\obj\Debug\Builder.pdb
