@@ -30,9 +30,10 @@ namespace Strategy
             BigTrouser bt = new BigTrouser();
 
             bt.Decorator(person);
+            tshirt.Decorator(bt);
             tshirt.show();
-            bt.show();
 
+            Console.WriteLine("*****************************");
             #endregion
 
             #region 代理方法
