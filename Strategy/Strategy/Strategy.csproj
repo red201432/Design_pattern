@@ -42,6 +42,9 @@
     <Reference Include="Facade">
       <HintPath>..\Facade\bin\Debug\Facade.dll</HintPath>
     </Reference>
+    <Reference Include="Observer">
+      <HintPath>..\Observer\bin\Debug\Observer.dll</HintPath>
+    </Reference>
     <Reference Include="Prototype">
       <HintPath>..\Prototype\bin\Debug\Prototype.dll</HintPath>
     </Reference>

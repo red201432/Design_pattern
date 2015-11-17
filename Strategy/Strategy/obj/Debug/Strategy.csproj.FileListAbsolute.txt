@@ -34,3 +34,5 @@ E:\github\Design_pattern\Strategy\Strategy\bin\Debug\Facade.dll
 E:\github\Design_pattern\Strategy\Strategy\bin\Debug\Facade.pdb
 E:\github\Design_pattern\Strategy\Strategy\bin\Debug\Builder.dll
 E:\github\Design_pattern\Strategy\Strategy\bin\Debug\Builder.pdb
+E:\github\Design_pattern\Strategy\Strategy\bin\Debug\Observer.dll
+E:\github\Design_pattern\Strategy\Strategy\bin\Debug\Observer.pdb
