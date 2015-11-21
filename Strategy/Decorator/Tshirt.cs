@@ -10,7 +10,7 @@ namespace Decorator
     {
         public override void show()
         {
-            Console.WriteLine("Big Tshirt");
+            Console.Write(" Big Tshirt  ");
             base.show();
         }
     }

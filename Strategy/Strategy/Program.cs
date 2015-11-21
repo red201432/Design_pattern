@@ -8,8 +8,14 @@ using Decorator;
 using Proxy;
 using Prototype;
 using TemplateMethod;
+<<<<<<< HEAD
 using AbstractFactory;
 using System.Reflection;
+=======
+using Facade;
+using Builder;
+using Observer;
+>>>>>>> 9551b0f7a23b5d950a6cfd93b499b3bd8ab6e587
 namespace Strategy
 {
     class Program
@@ -32,9 +38,10 @@ namespace Strategy
             BigTrouser bt = new BigTrouser();
 
             bt.Decorator(person);
+            tshirt.Decorator(bt);
             tshirt.show();
-            bt.show();
 
+            Console.WriteLine("*****************************");
             #endregion
 
             #region 代理方法
@@ -70,6 +77,7 @@ namespace Strategy
             testB.Test2();
             #endregion
 
+<<<<<<< HEAD
             #region 抽象工厂方法
             User user = new User();
 
@@ -82,6 +90,45 @@ namespace Strategy
             iu.GetUser(1);
 
 
+=======
+#region Facade 外观模式
+            Fund jijin = new Fund();
+            jijin.BuyFund();
+            jijin.sellFund();
+#endregion
+
+            #region 建造者模式
+            Director director = new Director();
+            abstractBuilder builder1 = new Builder1();
+            abstractBuilder builder2 = new BuilderB();
+            director.Construct(builder1);
+            Builder.Builder b1 = builder1.getBuilder();
+            b1.show();
+
+            director.Construct(builder2);
+            Builder.Builder b2 = builder2.getBuilder();
+            b2.show();
+            #endregion
+            #region 观察者模式
+            Observer.ConcreteSubject s = new Observer.ConcreteSubject();
+            s.Attach(new Observer.ConcreteObserver(s, "x"));
+            s.Attach(new Observer.ConcreteObserver(s, "y"));
+            s.SubjectState = "ABC";
+            s.Notify();
+            ///下面是使用委托
+            ///委托就是一种引用方法的类型。一旦为委托分配了方法，委托将于该方法具有完全相同的行为。
+            ///委托方法的使用可以像其他的方法一样具有参数和返回值。委托可以看作是对函数的抽象，是函数的”类“，委托的实例将代表一个具体的函数
+            ///一个委托可以搭载多个方法，所有方法被依次唤起，委托搭载的方法不需要属于同一个类，只需要具有相同的原型和形式，也就是拥有相同的参数列表和返回类型。
+            ///在使用带参数的委托时，只需要在声明事件的地方将参数传递给事件。在绑定时将调用的方法绑定给事件。
+            Bosscs boss = new Bosscs();
+            StockObserver tongshi1 = new StockObserver("tongshi1",boss);
+            NBAObserver tongshiNBA = new NBAObserver("tongshiNBA", boss);
+            boss.Update += new EventHandler1(tongshi1.CloseStockMarket);
+            boss.Update += new EventHandler1(tongshiNBA.CloseStockMarket);
+            boss.update2 += new EventHandler2(tongshiNBA.print);
+            boss.SubjectState = " I am back ";
+            boss.Notify();            
+>>>>>>> 9551b0f7a23b5d950a6cfd93b499b3bd8ab6e587
             #endregion
         }
     }

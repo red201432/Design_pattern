@@ -13,7 +13,7 @@ namespace Decorator
     {
         public override void show()
         {
-            Console.WriteLine("BigTrouser");
+            Console.Write(" BigTrouser   ");
             base.show();
         }
     }

@@ -4,16 +4,15 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{1DE8D663-DA09-459F-8481-1F927662E6A1}</ProjectGuid>
-    <OutputType>Exe</OutputType>
+    <ProjectGuid>{D71AEBA9-167F-4697-AAB4-7514810A56D2}</ProjectGuid>
+    <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Strategy</RootNamespace>
-    <AssemblyName>Strategy</AssemblyName>
+    <RootNamespace>Observer</RootNamespace>
+    <AssemblyName>Observer</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
-    <PlatformTarget>AnyCPU</PlatformTarget>
     <DebugSymbols>true</DebugSymbols>
     <DebugType>full</DebugType>
     <Optimize>false</Optimize>
@@ -23,7 +22,6 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
-    <PlatformTarget>AnyCPU</PlatformTarget>
     <DebugType>pdbonly</DebugType>
     <Optimize>true</Optimize>
     <OutputPath>bin\Release\</OutputPath>
@@ -32,33 +30,6 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-<<<<<<< HEAD
-    <Reference Include="AbstractFactory">
-      <HintPath>..\AbstractFactory\bin\Debug\AbstractFactory.dll</HintPath>
-=======
-    <Reference Include="Builder">
-      <HintPath>..\Builder\bin\Debug\Builder.dll</HintPath>
->>>>>>> 9551b0f7a23b5d950a6cfd93b499b3bd8ab6e587
-    </Reference>
-    <Reference Include="Decorator, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\Decorator\bin\Debug\Decorator.dll</HintPath>
-    </Reference>
-    <Reference Include="Facade">
-      <HintPath>..\Facade\bin\Debug\Facade.dll</HintPath>
-    </Reference>
-    <Reference Include="Observer">
-      <HintPath>..\Observer\bin\Debug\Observer.dll</HintPath>
-    </Reference>
-    <Reference Include="Prototype">
-      <HintPath>..\Prototype\bin\Debug\Prototype.dll</HintPath>
-    </Reference>
-    <Reference Include="Proxy">
-      <HintPath>..\Proxy\bin\Debug\Proxy.dll</HintPath>
-    </Reference>
-    <Reference Include="StrategyCore">
-      <HintPath>..\StrategyCore\bin\Debug\StrategyCore.dll</HintPath>
-    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
@@ -66,16 +37,16 @@
     <Reference Include="Microsoft.CSharp" />
     <Reference Include="System.Data" />
     <Reference Include="System.Xml" />
-    <Reference Include="TemplateMethod">
-      <HintPath>..\TemplateMethod\bin\Debug\TemplateMethod.dll</HintPath>
-    </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Program.cs" />
+    <Compile Include="Bosscs.cs" />
+    <Compile Include="ConcreteObserver.cs" />
+    <Compile Include="ConcreteSubject.cs" />
+    <Compile Include="ISubject.cs" />
+    <Compile Include="Observer.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="App.config" />
+    <Compile Include="StockObserver.cs" />
+    <Compile Include="Subject.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
