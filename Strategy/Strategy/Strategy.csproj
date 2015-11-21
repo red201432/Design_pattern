@@ -32,6 +32,9 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="AbstractFactory">
+      <HintPath>..\AbstractFactory\bin\Debug\AbstractFactory.dll</HintPath>
+    </Reference>
     <Reference Include="Decorator, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
       <HintPath>..\Decorator\bin\Debug\Decorator.dll</HintPath>

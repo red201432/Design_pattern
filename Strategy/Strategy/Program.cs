@@ -8,6 +8,8 @@ using Decorator;
 using Proxy;
 using Prototype;
 using TemplateMethod;
+using AbstractFactory;
+using System.Reflection;
 namespace Strategy
 {
     class Program
@@ -66,6 +68,20 @@ namespace Strategy
             TestPaperB testB = new TestPaperB();
             testB.Test1();
             testB.Test2();
+            #endregion
+
+            #region 抽象工厂方法
+            User user = new User();
+
+            IFactory factory = new SqlServerFactory();
+            IUser iu = factory.CreateUser();
+            //IUser riu = (IUser)Assembly.Load("AbstractFactory").CreateInstance("SqlserverUser");
+            //反射  
+            //Assembly.Load("程序集名称").CreateInstance("程序集名称.类名称");
+            iu.Insert(user);
+            iu.GetUser(1);
+
+
             #endregion
         }
     }

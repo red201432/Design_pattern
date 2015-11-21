@@ -2,3 +2,7 @@ E:\Study\csharp\CSharpLearn\Design pattern\Strategy\Prototype\bin\Debug\Prototyp
 E:\Study\csharp\CSharpLearn\Design pattern\Strategy\Prototype\bin\Debug\Prototype.pdb
 E:\Study\csharp\CSharpLearn\Design pattern\Strategy\Prototype\obj\Debug\Prototype.dll
 E:\Study\csharp\CSharpLearn\Design pattern\Strategy\Prototype\obj\Debug\Prototype.pdb
+E:\github\Design_pattern\Strategy\Prototype\bin\Debug\Prototype.dll
+E:\github\Design_pattern\Strategy\Prototype\bin\Debug\Prototype.pdb
+E:\github\Design_pattern\Strategy\Prototype\obj\Debug\Prototype.dll
+E:\github\Design_pattern\Strategy\Prototype\obj\Debug\Prototype.pdb
