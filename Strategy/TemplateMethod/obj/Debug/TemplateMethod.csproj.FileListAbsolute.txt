@@ -1,0 +1,5 @@
+E:\github\Design_pattern\Strategy\TemplateMethod\bin\Debug\TemplateMethod.dll
+E:\github\Design_pattern\Strategy\TemplateMethod\bin\Debug\TemplateMethod.pdb
+E:\github\Design_pattern\Strategy\TemplateMethod\obj\Debug\TemplateMethod.dll
+E:\github\Design_pattern\Strategy\TemplateMethod\obj\Debug\TemplateMethod.pdb
+E:\github\Design_pattern\Strategy\TemplateMethod\obj\Debug\TemplateMethod.csprojResolveAssemblyReference.cache

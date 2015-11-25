@@ -1,0 +1,4 @@
+E:\github\Design_pattern\Strategy\Observer\bin\Debug\Observer.dll
+E:\github\Design_pattern\Strategy\Observer\bin\Debug\Observer.pdb
+E:\github\Design_pattern\Strategy\Observer\obj\Debug\Observer.dll
+E:\github\Design_pattern\Strategy\Observer\obj\Debug\Observer.pdb

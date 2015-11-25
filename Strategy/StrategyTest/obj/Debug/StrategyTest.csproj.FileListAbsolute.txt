@@ -1,0 +1,1 @@
+E:\github\Design_pattern\Strategy\StrategyTest\obj\Debug\StrategyTest.csprojResolveAssemblyReference.cache

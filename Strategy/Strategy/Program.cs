@@ -8,14 +8,12 @@ using Decorator;
 using Proxy;
 using Prototype;
 using TemplateMethod;
-<<<<<<< HEAD
 using AbstractFactory;
 using System.Reflection;
-=======
 using Facade;
 using Builder;
 using Observer;
->>>>>>> 9551b0f7a23b5d950a6cfd93b499b3bd8ab6e587
+using State;
 namespace Strategy
 {
     class Program
@@ -77,7 +75,6 @@ namespace Strategy
             testB.Test2();
             #endregion
 
-<<<<<<< HEAD
             #region 抽象工厂方法
             User user = new User();
 
@@ -88,14 +85,13 @@ namespace Strategy
             //Assembly.Load("程序集名称").CreateInstance("程序集名称.类名称");
             iu.Insert(user);
             iu.GetUser(1);
+#endregion
 
-
-=======
-#region Facade 外观模式
+            #region Facade 外观模式
             Fund jijin = new Fund();
             jijin.BuyFund();
             jijin.sellFund();
-#endregion
+            #endregion
 
             #region 建造者模式
             Director director = new Director();
@@ -128,7 +124,16 @@ namespace Strategy
             boss.update2 += new EventHandler2(tongshiNBA.print);
             boss.SubjectState = " I am back ";
             boss.Notify();            
->>>>>>> 9551b0f7a23b5d950a6cfd93b499b3bd8ab6e587
+            #endregion
+
+
+            #region 状态模式
+            Context c = new Context(new CreateStateA());
+            c.Request();
+            c.Request();
+            c.Request();
+            c.Request();
+            Console.Read();
             #endregion
         }
     }

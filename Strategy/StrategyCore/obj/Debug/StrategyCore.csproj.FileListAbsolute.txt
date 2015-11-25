@@ -1,0 +1,4 @@
+E:\github\Design_pattern\Strategy\StrategyCore\bin\Debug\StrategyCore.dll
+E:\github\Design_pattern\Strategy\StrategyCore\bin\Debug\StrategyCore.pdb
+E:\github\Design_pattern\Strategy\StrategyCore\obj\Debug\StrategyCore.dll
+E:\github\Design_pattern\Strategy\StrategyCore\obj\Debug\StrategyCore.pdb

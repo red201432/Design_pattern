@@ -1,0 +1,4 @@
+E:\github\Design_pattern\Strategy\State\bin\Debug\State.dll
+E:\github\Design_pattern\Strategy\State\bin\Debug\State.pdb
+E:\github\Design_pattern\Strategy\State\obj\Debug\State.dll
+E:\github\Design_pattern\Strategy\State\obj\Debug\State.pdb

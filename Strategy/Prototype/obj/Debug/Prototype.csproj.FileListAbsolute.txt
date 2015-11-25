@@ -1,0 +1,4 @@
+E:\github\Design_pattern\Strategy\Prototype\bin\Debug\Prototype.dll
+E:\github\Design_pattern\Strategy\Prototype\bin\Debug\Prototype.pdb
+E:\github\Design_pattern\Strategy\Prototype\obj\Debug\Prototype.dll
+E:\github\Design_pattern\Strategy\Prototype\obj\Debug\Prototype.pdb
