@@ -45,6 +45,9 @@
     <Reference Include="Facade">
       <HintPath>..\Facade\bin\Debug\Facade.dll</HintPath>
     </Reference>
+    <Reference Include="Memento">
+      <HintPath>..\Memento\bin\Debug\Memento.dll</HintPath>
+    </Reference>
     <Reference Include="Observer">
       <HintPath>..\Observer\bin\Debug\Observer.dll</HintPath>
     </Reference>

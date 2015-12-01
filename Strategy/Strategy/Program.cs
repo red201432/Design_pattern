@@ -14,6 +14,7 @@ using Facade;
 using Builder;
 using Observer;
 using State;
+using Memento;
 namespace Strategy
 {
     class Program
@@ -133,8 +134,23 @@ namespace Strategy
             c.Request();
             c.Request();
             c.Request();
-            Console.Read();
+           
             #endregion
+
+            #region 备忘录模式
+            Originator o = new Originator();
+            o.State = "On";
+            o.Show();
+            Caretaker care = new Caretaker();
+            care.Memento = o.CreateMemento();
+            o.State = "Off";
+            o.Show();
+
+            o.SetMemento(care.Memento);
+            o.Show();
+            #endregion
+
+            Console.Read();
         }
     }
 }

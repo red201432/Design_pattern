@@ -24,3 +24,5 @@ E:\github\Design_pattern\Strategy\Strategy\obj\Debug\Strategy.exe
 E:\github\Design_pattern\Strategy\Strategy\obj\Debug\Strategy.pdb
 E:\github\Design_pattern\Strategy\Strategy\bin\Debug\State.dll
 E:\github\Design_pattern\Strategy\Strategy\bin\Debug\State.pdb
+E:\github\Design_pattern\Strategy\Strategy\bin\Debug\Memento.dll
+E:\github\Design_pattern\Strategy\Strategy\bin\Debug\Memento.pdb
