@@ -4,11 +4,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{F1FF4F3B-6400-43EA-B4E4-7F146B9A6245}</ProjectGuid>
+    <ProjectGuid>{89717B65-331A-4E2C-9EBF-4DE1D5108C93}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Memento</RootNamespace>
-    <AssemblyName>Memento</AssemblyName>
+    <RootNamespace>Composite</RootNamespace>
+    <AssemblyName>Composite</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>
@@ -39,12 +39,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Caretaker.cs" />
-    <Compile Include="Game\GameRole.cs" />
-    <Compile Include="Game\RoleStateManager.cs" />
-    <Compile Include="Game\RoleStateMemento.cs" />
-    <Compile Include="Memento.cs" />
-    <Compile Include="Originator.cs" />
+    <Compile Include="Component.cs" />
+    <Compile Include="Composite.cs" />
+    <Compile Include="Leaf.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

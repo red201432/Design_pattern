@@ -15,6 +15,8 @@ using Builder;
 using Observer;
 using State;
 using Memento;
+using Memento.Game;
+using Composite;
 namespace Strategy
 {
     class Program
@@ -31,7 +33,7 @@ namespace Strategy
             #endregion
 
             #region 装饰器方法
-            Component person = new Component("xiaocai");
+            Decorator.Component person = new Decorator.Component("xiaocai");
 
             Tshirt tshirt = new Tshirt();
             BigTrouser bt = new BigTrouser();
@@ -148,8 +150,45 @@ namespace Strategy
 
             o.SetMemento(care.Memento);
             o.Show();
+
+            GameRole gameRole = new GameRole();
+            gameRole.GetInitState();
+            gameRole.StateDisplay();
+
+            RoleStateManager stateManager = new RoleStateManager();
+            stateManager.Memento = gameRole.SaveState();
+
+            gameRole.Fight();
+            gameRole.StateDisplay();
+
+            gameRole.RecoveryState(stateManager.Memento);
+            gameRole.StateDisplay();
             #endregion
 
+            #region 组合模式
+            Composite.Composite root = new Composite.Component("root");
+            root.Add(new Leaf("Leaf A"));
+            root.Add(new Leaf("Leaf B"));
+
+            Composite.Composite comp = new Composite.Component("comp X");
+            comp.Add(new Leaf("Leaf XA"));
+            comp.Add(new Leaf("Leaf XB"));
+            root.Add(comp);
+
+            Composite.Composite comp2 = new Composite.Component("Comp X2");
+            comp2.Add(new Leaf("Leaf X2A"));
+            comp2.Add(new Leaf("Leaf X2B"));
+            comp.Add(comp2);
+
+            root.Add(new Leaf("Leaf C"));
+            Leaf leaf = new Leaf("Leaf D");
+
+            root.Add(leaf);
+            root.Display(1);
+            root.Remove(leaf);
+            root.Display(1);
+	        #endregion
+            
             Console.Read();
         }
     }

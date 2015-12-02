@@ -38,6 +38,9 @@
     <Reference Include="Builder">
       <HintPath>..\Builder\bin\Debug\Builder.dll</HintPath>
     </Reference>
+    <Reference Include="Composite">
+      <HintPath>..\Composite\bin\Debug\Composite.dll</HintPath>
+    </Reference>
     <Reference Include="Decorator, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
       <HintPath>..\Decorator\bin\Debug\Decorator.dll</HintPath>
