@@ -4,16 +4,15 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{1DE8D663-DA09-459F-8481-1F927662E6A1}</ProjectGuid>
-    <OutputType>Exe</OutputType>
+    <ProjectGuid>{C3CB9455-FEAD-4C6D-9C56-439ACB2E4968}</ProjectGuid>
+    <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Strategy</RootNamespace>
-    <AssemblyName>Strategy</AssemblyName>
+    <RootNamespace>Iterator</RootNamespace>
+    <AssemblyName>Iterator</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
-    <PlatformTarget>AnyCPU</PlatformTarget>
     <DebugSymbols>true</DebugSymbols>
     <DebugType>full</DebugType>
     <Optimize>false</Optimize>
@@ -23,7 +22,6 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
-    <PlatformTarget>AnyCPU</PlatformTarget>
     <DebugType>pdbonly</DebugType>
     <Optimize>true</Optimize>
     <OutputPath>bin\Release\</OutputPath>
@@ -32,43 +30,6 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="AbstractFactory">
-      <HintPath>..\AbstractFactory\bin\Debug\AbstractFactory.dll</HintPath>
-    </Reference>
-    <Reference Include="Builder">
-      <HintPath>..\Builder\bin\Debug\Builder.dll</HintPath>
-    </Reference>
-    <Reference Include="Composite">
-      <HintPath>..\Composite\bin\Debug\Composite.dll</HintPath>
-    </Reference>
-    <Reference Include="Decorator, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\Decorator\bin\Debug\Decorator.dll</HintPath>
-    </Reference>
-    <Reference Include="Facade">
-      <HintPath>..\Facade\bin\Debug\Facade.dll</HintPath>
-    </Reference>
-    <Reference Include="Iterator">
-      <HintPath>..\Iterator\bin\Debug\Iterator.dll</HintPath>
-    </Reference>
-    <Reference Include="Memento">
-      <HintPath>..\Memento\bin\Debug\Memento.dll</HintPath>
-    </Reference>
-    <Reference Include="Observer">
-      <HintPath>..\Observer\bin\Debug\Observer.dll</HintPath>
-    </Reference>
-    <Reference Include="Prototype">
-      <HintPath>..\Prototype\bin\Debug\Prototype.dll</HintPath>
-    </Reference>
-    <Reference Include="Proxy">
-      <HintPath>..\Proxy\bin\Debug\Proxy.dll</HintPath>
-    </Reference>
-    <Reference Include="State">
-      <HintPath>..\State\bin\Debug\State.dll</HintPath>
-    </Reference>
-    <Reference Include="StrategyCore">
-      <HintPath>..\StrategyCore\bin\Debug\StrategyCore.dll</HintPath>
-    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
@@ -76,16 +37,13 @@
     <Reference Include="Microsoft.CSharp" />
     <Reference Include="System.Data" />
     <Reference Include="System.Xml" />
-    <Reference Include="TemplateMethod">
-      <HintPath>..\TemplateMethod\bin\Debug\TemplateMethod.dll</HintPath>
-    </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Program.cs" />
+    <Compile Include="Aggregate.cs" />
+    <Compile Include="ConCreteAggregate.cs" />
+    <Compile Include="ConCreteIterator.cs" />
+    <Compile Include="Iterator.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="App.config" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

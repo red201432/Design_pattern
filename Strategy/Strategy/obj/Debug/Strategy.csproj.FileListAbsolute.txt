@@ -28,3 +28,5 @@ E:\github\Design_pattern\Strategy\Strategy\bin\Debug\Memento.dll
 E:\github\Design_pattern\Strategy\Strategy\bin\Debug\Memento.pdb
 E:\github\Design_pattern\Strategy\Strategy\bin\Debug\Composite.dll
 E:\github\Design_pattern\Strategy\Strategy\bin\Debug\Composite.pdb
+E:\github\Design_pattern\Strategy\Strategy\bin\Debug\Iterator.dll
+E:\github\Design_pattern\Strategy\Strategy\bin\Debug\Iterator.pdb

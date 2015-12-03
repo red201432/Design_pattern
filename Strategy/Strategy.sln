@@ -31,6 +31,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Memento", "Memento\Memento.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Composite", "Composite\Composite.csproj", "{89717B65-331A-4E2C-9EBF-4DE1D5108C93}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Iterator", "Iterator\Iterator.csproj", "{C3CB9455-FEAD-4C6D-9C56-439ACB2E4968}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -93,6 +95,10 @@ Global
 		{89717B65-331A-4E2C-9EBF-4DE1D5108C93}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{89717B65-331A-4E2C-9EBF-4DE1D5108C93}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{89717B65-331A-4E2C-9EBF-4DE1D5108C93}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C3CB9455-FEAD-4C6D-9C56-439ACB2E4968}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C3CB9455-FEAD-4C6D-9C56-439ACB2E4968}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C3CB9455-FEAD-4C6D-9C56-439ACB2E4968}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C3CB9455-FEAD-4C6D-9C56-439ACB2E4968}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

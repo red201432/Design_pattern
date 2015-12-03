@@ -17,6 +17,8 @@ using State;
 using Memento;
 using Memento.Game;
 using Composite;
+using Iterator;
+
 namespace Strategy
 {
     class Program
@@ -188,7 +190,22 @@ namespace Strategy
             root.Remove(leaf);
             root.Display(1);
 	        #endregion
-            
+
+            #region 迭代器模式
+            ConCreteAggregate aggregate = new ConCreteAggregate();
+            aggregate[0] = "大鸟";
+            aggregate[1] = "小菜";
+            aggregate[2]="行李";
+            aggregate[3] = "老外";
+            aggregate[4] = "小偷";
+            Iterator.Iterator myIterator = new ConCreteIterator(aggregate);
+            object item = myIterator.First();
+            while (!myIterator.IsDone())
+            {
+                Console.WriteLine(myIterator.CurrentItem() + "请买车票");
+                myIterator.Next();
+            }
+            #endregion
             Console.Read();
         }
     }
