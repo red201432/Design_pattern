@@ -18,7 +18,7 @@ using Memento;
 using Memento.Game;
 using Composite;
 using Iterator;
-
+using Singleton;
 namespace Strategy
 {
     class Program
@@ -205,6 +205,20 @@ namespace Strategy
                 Console.WriteLine(myIterator.CurrentItem() + "请买车票");
                 myIterator.Next();
             }
+            #endregion
+
+            #region 单例模式
+             //所有类都有构造方法，不编码则默认生成空的构造方法，若有显示定义的构造方法，默认的构造方法就会失效。只要将构造方法改写为私有的，外部的程序就不能通过new 来初始化它。
+            //通过一个共有的方法来返回类的实例。
+            Singleton.Singleton s1 = Singleton.Singleton.GetInstance();
+            Singleton.Singleton s2 = Singleton.Singleton.GetInstance();
+
+            if (s1 == s2)
+            {
+                Console.WriteLine("两个对象是相同的实例。");
+            }
+            
+
             #endregion
             Console.Read();
         }

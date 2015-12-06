@@ -1,0 +1,5 @@
+E:\github\Design_pattern\Strategy\Singleton\bin\Debug\Singleton.dll
+E:\github\Design_pattern\Strategy\Singleton\bin\Debug\Singleton.pdb
+E:\github\Design_pattern\Strategy\Singleton\obj\Debug\Singleton.csprojResolveAssemblyReference.cache
+E:\github\Design_pattern\Strategy\Singleton\obj\Debug\Singleton.dll
+E:\github\Design_pattern\Strategy\Singleton\obj\Debug\Singleton.pdb
