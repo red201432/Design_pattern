@@ -32,3 +32,5 @@ E:\github\Design_pattern\Strategy\Strategy\bin\Debug\Iterator.dll
 E:\github\Design_pattern\Strategy\Strategy\bin\Debug\Iterator.pdb
 E:\github\Design_pattern\Strategy\Strategy\bin\Debug\Singleton.dll
 E:\github\Design_pattern\Strategy\Strategy\bin\Debug\Singleton.pdb
+E:\github\Design_pattern\Strategy\Strategy\bin\Debug\Command.dll
+E:\github\Design_pattern\Strategy\Strategy\bin\Debug\Command.pdb

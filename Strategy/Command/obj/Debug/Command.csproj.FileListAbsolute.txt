@@ -1,0 +1,5 @@
+E:\github\Design_pattern\Strategy\Command\bin\Debug\Command.dll
+E:\github\Design_pattern\Strategy\Command\bin\Debug\Command.pdb
+E:\github\Design_pattern\Strategy\Command\obj\Debug\Command.csprojResolveAssemblyReference.cache
+E:\github\Design_pattern\Strategy\Command\obj\Debug\Command.dll
+E:\github\Design_pattern\Strategy\Command\obj\Debug\Command.pdb

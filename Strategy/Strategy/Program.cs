@@ -19,6 +19,7 @@ using Memento.Game;
 using Composite;
 using Iterator;
 using Singleton;
+using Command;
 namespace Strategy
 {
     class Program
@@ -219,6 +220,14 @@ namespace Strategy
             }
             
 
+            #endregion
+
+            #region 命令模式
+            Receiver r = new Receiver();
+            Command.Command command = new Command.ConcreteCommand(r);
+            Invoker invoker = new Invoker();
+            invoker.SetCommand(command);
+            invoker.ExecuteCommand();
             #endregion
             Console.Read();
         }
