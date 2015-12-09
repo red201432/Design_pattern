@@ -38,6 +38,9 @@
     <Reference Include="Builder">
       <HintPath>..\Builder\bin\Debug\Builder.dll</HintPath>
     </Reference>
+    <Reference Include="ChainOfResponsibility">
+      <HintPath>..\ChainOfResponsibility\bin\Debug\ChainOfResponsibility.dll</HintPath>
+    </Reference>
     <Reference Include="Command">
       <HintPath>..\Command\bin\Debug\Command.dll</HintPath>
     </Reference>

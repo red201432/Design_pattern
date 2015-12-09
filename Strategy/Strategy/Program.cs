@@ -229,6 +229,17 @@ namespace Strategy
             invoker.SetCommand(command);
             invoker.ExecuteCommand();
             #endregion
+
+            #region 职责链模式
+            Handler h1 = new ConcreteHandler1();
+            Handler h2 = new ConcreteHandler2();
+            h1.SetSuccessor(h2);
+            int[] requests = { 2, 3, 4, 5, 6, 12, 34, 11, 15 };
+            foreach (int request in requests)
+            {
+                h1.HandlerRequest(request);
+            }
+            #endregion
             Console.Read();
         }
     }

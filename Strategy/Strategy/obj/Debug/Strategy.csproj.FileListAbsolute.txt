@@ -34,3 +34,5 @@ E:\github\Design_pattern\Strategy\Strategy\bin\Debug\Singleton.dll
 E:\github\Design_pattern\Strategy\Strategy\bin\Debug\Singleton.pdb
 E:\github\Design_pattern\Strategy\Strategy\bin\Debug\Command.dll
 E:\github\Design_pattern\Strategy\Strategy\bin\Debug\Command.pdb
+E:\github\Design_pattern\Strategy\Strategy\bin\Debug\ChainOfResponsibility.dll
+E:\github\Design_pattern\Strategy\Strategy\bin\Debug\ChainOfResponsibility.pdb
