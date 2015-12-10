@@ -20,6 +20,7 @@ using Composite;
 using Iterator;
 using Singleton;
 using Command;
+using Mediator;
 namespace Strategy
 {
     class Program
@@ -240,7 +241,22 @@ namespace Strategy
                 h1.HandlerRequest(request);
             }
             #endregion
+
+            #region 中介者模式
+            ConcreteMediator mediator = new ConcreteMediator();
+            ConcreteColleague1 colleague1 = new ConcreteColleague1(mediator);
+            ConcreteColleague2 colleague2 = new ConcreteColleague2(mediator);
+            mediator.Colleague1 = colleague1;
+            mediator.Colleague2 = colleague2;
+            colleague1.Send("吃饭了吗？");
+            colleague2.Send("还没有呢");
+            #endregion
+
+            #region 享元模式
+
+            #endregion
             Console.Read();
+
         }
     }
 }

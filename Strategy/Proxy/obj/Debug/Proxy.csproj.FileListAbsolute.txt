@@ -2,3 +2,4 @@ E:\github\Design_pattern\Strategy\Proxy\bin\Debug\Proxy.dll
 E:\github\Design_pattern\Strategy\Proxy\bin\Debug\Proxy.pdb
 E:\github\Design_pattern\Strategy\Proxy\obj\Debug\Proxy.dll
 E:\github\Design_pattern\Strategy\Proxy\obj\Debug\Proxy.pdb
+E:\github\Design_pattern\Strategy\Proxy\obj\Debug\Proxy.csprojResolveAssemblyReference.cache

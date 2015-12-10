@@ -2,3 +2,4 @@ E:\github\Design_pattern\Strategy\Facade\bin\Debug\Facade.dll
 E:\github\Design_pattern\Strategy\Facade\bin\Debug\Facade.pdb
 E:\github\Design_pattern\Strategy\Facade\obj\Debug\Facade.dll
 E:\github\Design_pattern\Strategy\Facade\obj\Debug\Facade.pdb
+E:\github\Design_pattern\Strategy\Facade\obj\Debug\Facade.csprojResolveAssemblyReference.cache

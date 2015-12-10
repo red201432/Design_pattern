@@ -2,3 +2,6 @@ E:\github\Design_pattern\Strategy\Decorator\bin\Debug\Decorator.dll
 E:\github\Design_pattern\Strategy\Decorator\bin\Debug\Decorator.pdb
 E:\github\Design_pattern\Strategy\Decorator\obj\Debug\Decorator.dll
 E:\github\Design_pattern\Strategy\Decorator\obj\Debug\Decorator.pdb
+E:\github\Design_pattern\Strategy\Decorator\bin\Debug\Proxy.dll
+E:\github\Design_pattern\Strategy\Decorator\bin\Debug\Proxy.pdb
+E:\github\Design_pattern\Strategy\Decorator\obj\Debug\Decorator.csprojResolveAssemblyReference.cache

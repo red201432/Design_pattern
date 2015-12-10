@@ -1,0 +1,4 @@
+E:\github\Design_pattern\Strategy\Mediator\bin\Debug\Mediator.dll
+E:\github\Design_pattern\Strategy\Mediator\bin\Debug\Mediator.pdb
+E:\github\Design_pattern\Strategy\Mediator\obj\Debug\Mediator.dll
+E:\github\Design_pattern\Strategy\Mediator\obj\Debug\Mediator.pdb

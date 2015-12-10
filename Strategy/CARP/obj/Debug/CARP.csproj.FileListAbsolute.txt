@@ -1,0 +1,4 @@
+E:\github\Design_pattern\Strategy\CARP\bin\Debug\CARP.dll
+E:\github\Design_pattern\Strategy\CARP\bin\Debug\CARP.pdb
+E:\github\Design_pattern\Strategy\CARP\obj\Debug\CARP.dll
+E:\github\Design_pattern\Strategy\CARP\obj\Debug\CARP.pdb

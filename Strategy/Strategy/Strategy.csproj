@@ -57,6 +57,9 @@
     <Reference Include="Iterator">
       <HintPath>..\Iterator\bin\Debug\Iterator.dll</HintPath>
     </Reference>
+    <Reference Include="Mediator">
+      <HintPath>..\Mediator\bin\Debug\Mediator.dll</HintPath>
+    </Reference>
     <Reference Include="Memento">
       <HintPath>..\Memento\bin\Debug\Memento.dll</HintPath>
     </Reference>
