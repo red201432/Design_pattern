@@ -21,6 +21,7 @@ using Iterator;
 using Singleton;
 using Command;
 using Mediator;
+using Flyweight;
 namespace Strategy
 {
     class Program
@@ -253,6 +254,16 @@ namespace Strategy
             #endregion
 
             #region 享元模式
+            int extri = 22;
+            FlyweightFactory f = new FlyweightFactory();
+            Flyweight.Flyweight fx = f.GetFlyweight("X");
+            fx.Operation(--extri);
+
+            Flyweight.Flyweight fy = f.GetFlyweight("Y");
+            fy.Operation(--extri);
+
+            Flyweight.Flyweight fz = f.GetFlyweight("Z");
+            fz.Operation(--extri);
 
             #endregion
             Console.Read();

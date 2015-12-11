@@ -38,3 +38,5 @@ E:\github\Design_pattern\Strategy\Strategy\bin\Debug\ChainOfResponsibility.dll
 E:\github\Design_pattern\Strategy\Strategy\bin\Debug\ChainOfResponsibility.pdb
 E:\github\Design_pattern\Strategy\Strategy\bin\Debug\Mediator.dll
 E:\github\Design_pattern\Strategy\Strategy\bin\Debug\Mediator.pdb
+E:\github\Design_pattern\Strategy\Strategy\bin\Debug\Flyweight.dll
+E:\github\Design_pattern\Strategy\Strategy\bin\Debug\Flyweight.pdb

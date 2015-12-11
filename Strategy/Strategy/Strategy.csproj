@@ -54,6 +54,9 @@
     <Reference Include="Facade">
       <HintPath>..\Facade\bin\Debug\Facade.dll</HintPath>
     </Reference>
+    <Reference Include="Flyweight">
+      <HintPath>..\Flyweight\bin\Debug\Flyweight.dll</HintPath>
+    </Reference>
     <Reference Include="Iterator">
       <HintPath>..\Iterator\bin\Debug\Iterator.dll</HintPath>
     </Reference>
