@@ -40,3 +40,7 @@ E:\github\Design_pattern\Strategy\Strategy\bin\Debug\Mediator.dll
 E:\github\Design_pattern\Strategy\Strategy\bin\Debug\Mediator.pdb
 E:\github\Design_pattern\Strategy\Strategy\bin\Debug\Flyweight.dll
 E:\github\Design_pattern\Strategy\Strategy\bin\Debug\Flyweight.pdb
+E:\github\Design_pattern\Strategy\Strategy\bin\Debug\Interpreter.dll
+E:\github\Design_pattern\Strategy\Strategy\bin\Debug\Interpreter.pdb
+E:\github\Design_pattern\Strategy\Strategy\bin\Debug\Visitor.dll
+E:\github\Design_pattern\Strategy\Strategy\bin\Debug\Visitor.pdb

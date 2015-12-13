@@ -57,6 +57,9 @@
     <Reference Include="Flyweight">
       <HintPath>..\Flyweight\bin\Debug\Flyweight.dll</HintPath>
     </Reference>
+    <Reference Include="Interpreter">
+      <HintPath>..\Interpreter\bin\Debug\Interpreter.dll</HintPath>
+    </Reference>
     <Reference Include="Iterator">
       <HintPath>..\Iterator\bin\Debug\Iterator.dll</HintPath>
     </Reference>
@@ -93,6 +96,9 @@
     <Reference Include="System.Xml" />
     <Reference Include="TemplateMethod">
       <HintPath>..\TemplateMethod\bin\Debug\TemplateMethod.dll</HintPath>
+    </Reference>
+    <Reference Include="Visitor">
+      <HintPath>..\Visitor\bin\Debug\Visitor.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>

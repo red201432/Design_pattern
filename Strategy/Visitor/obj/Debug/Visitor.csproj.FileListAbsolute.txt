@@ -1,0 +1,5 @@
+E:\github\Design_pattern\Strategy\Visitor\bin\Debug\Visitor.dll
+E:\github\Design_pattern\Strategy\Visitor\bin\Debug\Visitor.pdb
+E:\github\Design_pattern\Strategy\Visitor\obj\Debug\Visitor.csprojResolveAssemblyReference.cache
+E:\github\Design_pattern\Strategy\Visitor\obj\Debug\Visitor.dll
+E:\github\Design_pattern\Strategy\Visitor\obj\Debug\Visitor.pdb
