@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 
 namespace Interpreter
 {
+<<<<<<< HEAD
     public  abstract  class AbstractExpression
     {
        public abstract void Interpret(Context context);
@@ -29,4 +30,13 @@ namespace Interpreter
 
     }
 
+=======
+    /// <summary>
+    ///声明一个抽象的解释操作，这个接口为抽象语法树中所有的节点所共享。
+    /// </summary>
+    public abstract class AbstractExpression
+    {
+        public abstract void Interpreter(Context context);
+    }
+>>>>>>> 77e342ef6e96917a8dc01e72e41626dcffd4ba13
 }

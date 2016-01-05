@@ -97,6 +97,9 @@
     <Reference Include="TemplateMethod">
       <HintPath>..\TemplateMethod\bin\Debug\TemplateMethod.dll</HintPath>
     </Reference>
+    <Reference Include="Visitor">
+      <HintPath>..\Visitor\bin\Debug\Visitor.dll</HintPath>
+    </Reference>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Program.cs" />

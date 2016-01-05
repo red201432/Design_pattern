@@ -45,7 +45,13 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mediator", "Mediator\Mediat
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Flyweight", "Flyweight\Flyweight.csproj", "{144E596C-B3CA-41A0-B6C8-697E87C76280}"
 EndProject
+<<<<<<< HEAD
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Interpreter", "Interpreter\Interpreter.csproj", "{0655B293-6757-496D-B29D-3C21F4792712}"
+=======
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Interpreter", "Interpreter\Interpreter.csproj", "{B9BD93C6-1AEA-46FF-8027-36A8F5E0E6E1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Visitor", "Visitor\Visitor.csproj", "{C3217FDC-C1D6-44C4-90AF-5D284EE15404}"
+>>>>>>> 77e342ef6e96917a8dc01e72e41626dcffd4ba13
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -137,10 +143,21 @@ Global
 		{144E596C-B3CA-41A0-B6C8-697E87C76280}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{144E596C-B3CA-41A0-B6C8-697E87C76280}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{144E596C-B3CA-41A0-B6C8-697E87C76280}.Release|Any CPU.Build.0 = Release|Any CPU
+<<<<<<< HEAD
 		{0655B293-6757-496D-B29D-3C21F4792712}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{0655B293-6757-496D-B29D-3C21F4792712}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0655B293-6757-496D-B29D-3C21F4792712}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0655B293-6757-496D-B29D-3C21F4792712}.Release|Any CPU.Build.0 = Release|Any CPU
+=======
+		{B9BD93C6-1AEA-46FF-8027-36A8F5E0E6E1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B9BD93C6-1AEA-46FF-8027-36A8F5E0E6E1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B9BD93C6-1AEA-46FF-8027-36A8F5E0E6E1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B9BD93C6-1AEA-46FF-8027-36A8F5E0E6E1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C3217FDC-C1D6-44C4-90AF-5D284EE15404}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C3217FDC-C1D6-44C4-90AF-5D284EE15404}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C3217FDC-C1D6-44C4-90AF-5D284EE15404}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C3217FDC-C1D6-44C4-90AF-5D284EE15404}.Release|Any CPU.Build.0 = Release|Any CPU
+>>>>>>> 77e342ef6e96917a8dc01e72e41626dcffd4ba13
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

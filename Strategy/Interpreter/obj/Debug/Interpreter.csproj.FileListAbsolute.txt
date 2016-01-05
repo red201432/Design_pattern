@@ -1,4 +1,8 @@
 E:\github\Design_pattern\Strategy\Interpreter\bin\Debug\Interpreter.dll
 E:\github\Design_pattern\Strategy\Interpreter\bin\Debug\Interpreter.pdb
+<<<<<<< HEAD
+=======
+E:\github\Design_pattern\Strategy\Interpreter\obj\Debug\Interpreter.csprojResolveAssemblyReference.cache
+>>>>>>> 77e342ef6e96917a8dc01e72e41626dcffd4ba13
 E:\github\Design_pattern\Strategy\Interpreter\obj\Debug\Interpreter.dll
 E:\github\Design_pattern\Strategy\Interpreter\obj\Debug\Interpreter.pdb

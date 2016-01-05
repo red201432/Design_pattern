@@ -22,6 +22,8 @@ using Singleton;
 using Command;
 using Mediator;
 using Flyweight;
+using Interpreter;
+using Visitor;
 namespace Strategy
 {
     class Program
@@ -136,7 +138,7 @@ namespace Strategy
 
 
             #region 状态模式
-            Context c = new Context(new CreateStateA());
+            State.Context c = new State.Context(new CreateStateA());
             c.Request();
             c.Request();
             c.Request();
@@ -268,12 +270,36 @@ namespace Strategy
             #endregion
 
             #region 解释器模式
+<<<<<<< HEAD
             Interpreter.Context context = new Interpreter.Context();
             IList<Interpreter.AbstractExpression> list = new List<Interpreter.AbstractExpression>();
             list.Add(new Interpreter.TerminalExpression());
             list.Add(new Interpreter.NormalExpression());
             foreach (Interpreter.AbstractExpression exp in list)
                 exp.Interpret(context);
+=======
+            Interpreter.Context context1 = new Interpreter.Context();
+            IList<AbstractExpression> list = new List<AbstractExpression>();
+            list.Add(new TerminalExpression());
+            list.Add(new NonTerminalExpression());
+            foreach (AbstractExpression exp in list)
+            {
+                exp.Interpreter(context1);
+            }
+            #endregion
+
+            #region 访问者模式
+            ObjectStructure os = new ObjectStructure();
+            os.Add(new Man());
+            os.Add(new Woman());
+            Success v1 = new Success();
+            os.Display(v1);
+            Failing f1 = new Failing();
+            os.Display(f1);
+
+            Amativeness a1 = new Amativeness();
+            os.Display(a1);
+>>>>>>> 77e342ef6e96917a8dc01e72e41626dcffd4ba13
             #endregion
             Console.Read();
 

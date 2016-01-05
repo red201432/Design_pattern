@@ -5,16 +5,12 @@ using System.Runtime.InteropServices;
 // 有关程序集的常规信息通过以下
 // 特性集控制。更改这些特性值可修改
 // 与程序集关联的信息。
-[assembly: AssemblyTitle("Interpreter")]
+[assembly: AssemblyTitle("Visitor")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("Microsoft")]
-[assembly: AssemblyProduct("Interpreter")]
-<<<<<<< HEAD
-[assembly: AssemblyCopyright("Copyright © Microsoft 2016")]
-=======
+[assembly: AssemblyProduct("Visitor")]
 [assembly: AssemblyCopyright("Copyright © Microsoft 2015")]
->>>>>>> 77e342ef6e96917a8dc01e72e41626dcffd4ba13
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 
@@ -24,11 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // 如果此项目向 COM 公开，则下列 GUID 用于类型库的 ID
-<<<<<<< HEAD
-[assembly: Guid("d5bfd5b2-9a9a-42c5-b0c4-bc73c0cb2273")]
-=======
-[assembly: Guid("aa3ab12f-55d6-426d-b220-bccd54f9d27b")]
->>>>>>> 77e342ef6e96917a8dc01e72e41626dcffd4ba13
+[assembly: Guid("215df150-f252-4b12-a47a-b17b373829a3")]
 
 // 程序集的版本信息由下面四个值组成: 
 //
