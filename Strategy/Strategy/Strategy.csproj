@@ -57,6 +57,9 @@
     <Reference Include="Flyweight">
       <HintPath>..\Flyweight\bin\Debug\Flyweight.dll</HintPath>
     </Reference>
+    <Reference Include="Interpreter">
+      <HintPath>..\Interpreter\bin\Debug\Interpreter.dll</HintPath>
+    </Reference>
     <Reference Include="Iterator">
       <HintPath>..\Iterator\bin\Debug\Iterator.dll</HintPath>
     </Reference>

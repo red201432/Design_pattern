@@ -1,0 +1,4 @@
+E:\github\Design_pattern\Strategy\Interpreter\bin\Debug\Interpreter.dll
+E:\github\Design_pattern\Strategy\Interpreter\bin\Debug\Interpreter.pdb
+E:\github\Design_pattern\Strategy\Interpreter\obj\Debug\Interpreter.dll
+E:\github\Design_pattern\Strategy\Interpreter\obj\Debug\Interpreter.pdb

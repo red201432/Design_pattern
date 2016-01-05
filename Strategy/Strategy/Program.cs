@@ -266,6 +266,15 @@ namespace Strategy
             fz.Operation(--extri);
 
             #endregion
+
+            #region 解释器模式
+            Interpreter.Context context = new Interpreter.Context();
+            IList<Interpreter.AbstractExpression> list = new List<Interpreter.AbstractExpression>();
+            list.Add(new Interpreter.TerminalExpression());
+            list.Add(new Interpreter.NormalExpression());
+            foreach (Interpreter.AbstractExpression exp in list)
+                exp.Interpret(context);
+            #endregion
             Console.Read();
 
         }
